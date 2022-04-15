@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OIDCpilot", "OIDCpilot\OIDCpilot.csproj", "{57CF7FC7-ACCB-435B-9F5F-9D063B17E312}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FD774E2E-AFED-4E64-AD18-AF36CB4065D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57CF7FC7-ACCB-435B-9F5F-9D063B17E312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CF7FC7-ACCB-435B-9F5F-9D063B17E312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CF7FC7-ACCB-435B-9F5F-9D063B17E312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CF7FC7-ACCB-435B-9F5F-9D063B17E312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD774E2E-AFED-4E64-AD18-AF36CB4065D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD774E2E-AFED-4E64-AD18-AF36CB4065D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD774E2E-AFED-4E64-AD18-AF36CB4065D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD774E2E-AFED-4E64-AD18-AF36CB4065D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE0414A0-928A-45F6-AAFC-69BF97D16377}
+	EndGlobalSection
+EndGlobal

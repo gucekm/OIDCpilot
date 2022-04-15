@@ -1,0 +1,14 @@
+﻿@page
+@model UserDataModel
+@{
+    ViewData["Title"] = "User data";
+}
+<h1>@ViewData["Title"]</h1>
+<p></p>
+<p>Session ID: @ViewData["Session ID"]</p>
+<p></p>
+<p><b>Username: @ViewData["Username"]</b></p>
+<p>Ime: @ViewData["First_name"]</p>
+<p>Priimek: @ViewData["Last_name"]</p>
+
+<a asp-page="Logout">Logout</a>

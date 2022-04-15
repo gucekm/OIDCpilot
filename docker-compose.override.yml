@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  oidctest:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443
+#      - OIDC__AUTHORITY=http://n-340609.ts.telekom.si:8080/auth/realms/MojTelekom
+      - OIDC__AUTHORITY=https://keycloak-redhat-sso-test.apps.ocp-test.ts.telekom.si/auth/realms/MojTelekom
+      - OIDC__CLIENTID=OIDCtest
+    ports:
+      - "8800:443"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+    extra_hosts:
+      - "n-340609.ts.telekom.si:10.115.4.136"
